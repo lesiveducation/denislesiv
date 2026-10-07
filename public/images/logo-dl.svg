@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Уточнённый логотип Denis Lesiv</title>
+  <desc id="desc">Монограмма с буквой D внутри буквы L и укороченной горизонтальной полкой.</desc>
+  <rect width="1200" height="700" fill="#f8fafc"/>
+
+  <!-- Large icon -->
+  <g transform="translate(105 135)">
+    <!-- Compact L -->
+    <path d="M0 0h52v220h152v52H0z" fill="#111827"/>
+    <!-- Nested D -->
+    <path fill="#14b8a6" fill-rule="evenodd" d="M74 50h54c65 0 104 31 104 80s-39 80-104 80H74V50zm38 37v86h15c40 0 63-14 63-43s-23-43-63-43h-15z"/>
+  </g>
+
+  <!-- Horizontal lockup -->
+  <g transform="translate(455 210)">
+    <text x="0" y="0" fill="#111827" style="font:750 54px 'Segoe UI',Arial,sans-serif;letter-spacing:5px">DENIS LESIV</text>
+    <rect x="2" y="35" width="62" height="6" rx="3" fill="#14b8a6"/>
+    <text x="0" y="84" fill="#64748b" style="font:500 22px 'Segoe UI',Arial,sans-serif;letter-spacing:.5px">САЙТЫ И AI-РЕШЕНИЯ ДЛЯ ПРОДАЖ</text>
+  </g>
+
+  <!-- Small-size checks -->
+  <g transform="translate(470 385)">
+    <rect width="88" height="88" rx="18" fill="#111827"/>
+    <g transform="translate(20 17) scale(.19)">
+      <path d="M0 0h52v220h152v52H0z" fill="#fff"/>
+      <path fill="#14b8a6" fill-rule="evenodd" d="M74 50h54c65 0 104 31 104 80s-39 80-104 80H74V50zm38 37v86h15c40 0 63-14 63-43s-23-43-63-43h-15z"/>
+    </g>
+    <text x="110" y="38" fill="#111827" style="font:700 22px 'Segoe UI',Arial,sans-serif">Аватар / favicon</text>
+    <text x="110" y="70" fill="#64748b" style="font:400 17px 'Segoe UI',Arial,sans-serif">Укороченная полка сохраняет читаемость</text>
+  </g>
+
+  <text x="105" y="625" fill="#64748b" style="font:400 18px 'Segoe UI',Arial,sans-serif">Полка L укорочена примерно на 25%; внутренний знак D стал компактнее и визуально устойчивее.</text>
+</svg>
