@@ -1,13 +1,43 @@
 ---
+import '@fontsource-variable/manrope';
 import '../styles/global.css';
 const { title, description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL('/images/og-denis-lesiv.png', Astro.site);
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': 'https://denislesiv.ru/#person',
+      name: 'Денис Лесив',
+      url: 'https://denislesiv.ru/',
+      email: 'mailto:iam@denislesiv.ru',
+      jobTitle: 'Разработчик цифровых решений для бизнеса',
+      sameAs: ['https://t.me/iamdenislesiv'],
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': 'https://denislesiv.ru/#service',
+      name: 'Денис Лесив — цифровые решения для бизнеса',
+      url: 'https://denislesiv.ru/',
+      email: 'mailto:iam@denislesiv.ru',
+      areaServed: { '@type': 'Country', name: 'Россия' },
+      founder: { '@id': 'https://denislesiv.ru/#person' },
+      priceRange: '₽₽',
+      knowsAbout: ['Сайты', 'Лендинги', 'Telegram-боты', 'Карточки товаров'],
+    },
+  ],
+};
 ---
 <!doctype html><html lang="ru"><head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><meta name="generator" content={Astro.generator} />
   <meta name="description" content={description} /><meta name="theme-color" content="#0c1820" />
   <meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content="website" />
+  <meta property="og:url" content={canonical} /><meta property="og:image" content={ogImage} /><meta property="og:locale" content="ru_RU" />
+  <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content={title} /><meta name="twitter:description" content={description} /><meta name="twitter:image" content={ogImage} />
+  <link rel="canonical" href={canonical} />
   <link rel="icon" type="image/svg+xml" href="/images/dl-mark.svg" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
   <title>{title}</title>
 </head><body><slot /></body></html>
