@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" role="img" aria-labelledby="title desc">
+  <title id="title">Горизонтальный логотип Denis Lesiv</title>
+  <desc id="desc">Компактная D внутри короткой полки L, имя Denis Lesiv и подпись Digital Business Solutions.</desc>
+  <rect width="700" height="260" rx="24" fill="#f4f7f7"/>
+  <g font-family="Manrope, Arial, sans-serif">
+    <g transform="translate(30 35)">
+      <rect width="190" height="190" rx="27" fill="#0c1820"/>
+      <path d="M31 29h30v103h96v30H31z" fill="#fff"/>
+      <path transform="translate(70 0) scale(.84 1) translate(-70 0)" fill="#14b8a6" fill-rule="evenodd" d="M70 29h35c42 0 68 23 68 50s-26 50-68 50H70V29zm26 24v52h8c27 0 43-9 43-26s-16-26-43-26h-8z"/>
+    </g>
+
+    <g transform="translate(258 42)">
+      <text x="0" y="42" fill="#0c1820" font-size="42" font-weight="900" letter-spacing="3">DENIS</text>
+      <text x="0" y="91" fill="#0c1820" font-size="42" font-weight="900" letter-spacing="3">LESIV</text>
+      <rect x="0" y="115" width="330" height="4" rx="2" fill="#14b8a6"/>
+      <g fill="#62747c" font-size="15" font-weight="900" text-anchor="middle">
+        <text y="151"><tspan x="7">D</tspan><tspan x="28">I</tspan><tspan x="49">G</tspan><tspan x="70">I</tspan><tspan x="91">T</tspan><tspan x="112">A</tspan><tspan x="133">L</tspan><tspan x="181">B</tspan><tspan x="201.5">U</tspan><tspan x="222">S</tspan><tspan x="242.5">I</tspan><tspan x="263">N</tspan><tspan x="283.5">E</tspan><tspan x="304">S</tspan><tspan x="325">S</tspan></text>
+        <text y="180"><tspan x="7">S</tspan><tspan x="47">O</tspan><tspan x="87">L</tspan><tspan x="127">U</tspan><tspan x="167">T</tspan><tspan x="207">I</tspan><tspan x="247">O</tspan><tspan x="287">N</tspan><tspan x="325">S</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

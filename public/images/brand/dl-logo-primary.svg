@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Denis Lesiv — Digital Business Solutions</title>
+  <desc id="desc">Основной логотип: имя Denis Lesiv формирует букву L, бирюзовая D расположена над полкой, ниже находится фирменная подпись Digital Business Solutions.</desc>
+  <rect width="600" height="700" rx="32" fill="#0c1820"/>
+  <g transform="translate(106 78)" font-family="Manrope, Arial, sans-serif">
+    <path d="M0 0h82v275h305v82H0z" fill="#fff"/>
+    <path transform="scale(1 .963636)" fill="#14b8a6" fill-rule="evenodd" d="M105 0h116c108 0 174 52 174 137.5S329 275 221 275H105V0zm58 56v163h54c73 0 117-29 117-81.5S290 56 217 56h-54z"/>
+    <g fill="#0c1820" font-weight="900" text-anchor="middle">
+      <text x="41" y="51" font-size="34">L</text>
+      <text x="41" y="102" font-size="34">E</text>
+      <text x="41" y="153" font-size="34">S</text>
+      <text x="41" y="204" font-size="34">I</text>
+      <text x="41" y="255" font-size="34">V</text>
+      <text y="329" font-size="34"><tspan x="42">D</tspan><tspan x="118">E</tspan><tspan x="194">N</tspan><tspan x="270">I</tspan><tspan x="346">S</tspan></text>
+    </g>
+    <g transform="translate(0 399)">
+      <rect width="395" height="116" rx="15" fill="#14b8a6"/>
+      <g fill="#062a27" font-size="20" font-weight="900" text-anchor="middle">
+        <text y="49"><tspan x="30">D</tspan><tspan x="54">I</tspan><tspan x="78">G</tspan><tspan x="102">I</tspan><tspan x="126">T</tspan><tspan x="150">A</tspan><tspan x="174">L</tspan><tspan x="215">B</tspan><tspan x="236.6">U</tspan><tspan x="258.2">S</tspan><tspan x="279.8">I</tspan><tspan x="301.4">N</tspan><tspan x="323">E</tspan><tspan x="344.6">S</tspan><tspan x="366">S</tspan></text>
+        <text y="84"><tspan x="30">S</tspan><tspan x="72">O</tspan><tspan x="114">L</tspan><tspan x="156">U</tspan><tspan x="198">T</tspan><tspan x="240">I</tspan><tspan x="282">O</tspan><tspan x="324">N</tspan><tspan x="366">S</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
